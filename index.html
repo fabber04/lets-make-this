@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Let's make this for you — a personal chef site</title>
+  <meta name="description" content="A first look at a personal chef and catering site. Let's make this for you.">
+  <link rel="icon" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Great+Vibes&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip" href="#top">Skip to the concept</a>
+
+  <div class="shell">
+    <header class="mast">
+      <p class="concept">A first look</p>
+      <a class="brand" href="#top">
+        <span class="script">Arden</span>
+        <span class="tag">Personal chef &amp; catering</span>
+      </a>
+      <button class="burger" type="button" aria-expanded="false" aria-controls="menu">
+        <span class="burger-lines" aria-hidden="true"></span>
+        <span class="sr">Menu</span>
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-roledescription="carousel" aria-label="Introduction">
+        <div class="hero-frame">
+          <article class="slide is-on">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=2000&q=75" alt="A candlelit table set with wine glasses and a finished plate">
+            <div class="hero-copy">
+              <p class="eyebrow rise">For the chef you know</p>
+              <h1 class="rise">Let's make this for you.</h1>
+              <span class="rule rise" aria-hidden="true"></span>
+              <p class="deck rise">A site with their name in gold, their plates on the page, and a quiet way for people to book the table.</p>
+              <div class="hero-actions rise">
+                <a class="btn solid" href="#kitchen">See how it feels</a>
+                <a class="btn ghost" href="#book">Put their name on it</a>
+              </div>
+            </div>
+          </article>
+          <article class="slide" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=2000&q=75" alt="A chef plating a dish under warm kitchen lights">
+            <div class="hero-copy">
+              <p class="eyebrow rise">The kitchen</p>
+              <p class="hero-title rise">Their plates, on the page.</p>
+              <span class="rule rise" aria-hidden="true"></span>
+              <p class="deck rise">Private tables, long celebrations, and meals ready for a week that is too busy to cook.</p>
+              <div class="hero-actions rise">
+                <a class="btn solid" href="#occasions">See the occasions</a>
+              </div>
+            </div>
+          </article>
+          <article class="slide" aria-hidden="true">
+            <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=2000&q=75" alt="A finished plate on a dark table">
+            <div class="hero-copy">
+              <p class="eyebrow rise">The table</p>
+              <p class="hero-title rise">Dinner, written for the day.</p>
+              <span class="rule rise" aria-hidden="true"></span>
+              <p class="deck rise">The host sits down. The kitchen arrives, cooks, and clears.</p>
+              <div class="hero-actions rise">
+                <a class="btn solid" href="#menus">Read a sample menu</a>
+              </div>
+            </div>
+          </article>
+          <div class="dots" role="tablist" aria-label="Slides">
+            <button type="button" aria-label="First slide" aria-selected="true"></button>
+            <button type="button" aria-label="Second slide" aria-selected="false"></button>
+            <button type="button" aria-label="Third slide" aria-selected="false"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="offers reveal" aria-label="What the site can hold">
+        <article class="offer">
+          <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=75" alt="An open-air dining terrace set for a meal">
+          <div class="offer-shade">
+            <h2>Private tables</h2>
+            <p>Dinner at home for two, or twenty.</p>
+            <a class="pill" href="#kitchen">Look closer</a>
+          </div>
+        </article>
+        <article class="offer">
+          <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=75" alt="A long banquet table set under a canopy">
+          <div class="offer-shade">
+            <h2>Celebrations</h2>
+            <p>The long table everyone remembers.</p>
+            <a class="pill" href="#occasions">Look closer</a>
+          </div>
+        </article>
+        <article class="offer">
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=75" alt="Glazed ribs with tomatoes, ready to serve">
+          <div class="offer-shade">
+            <h2>Meals, ready</h2>
+            <p>A week of cooking, packed and labeled.</p>
+            <a class="pill" href="#menus">Look closer</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="kitchen reveal" id="kitchen">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=1400&q=75" alt="A chef in a black jacket plating a dish">
+        </figure>
+        <div class="kitchen-copy">
+          <p class="eyebrow light">The kitchen</p>
+          <h2>Their story sits here.</h2>
+          <p>Arden is a stand-in, so you can see the shape. The portrait, the short story, and the signature become the chef you have in mind.</p>
+          <p>French care. Seasonal produce. Service that lets the person who hired them stay a guest.</p>
+          <ol class="steps">
+            <li><span>01</span> A conversation about the table</li>
+            <li><span>02</span> A menu written for that day</li>
+            <li><span>03</span> The kitchen arrives, cooks, and clears</li>
+          </ol>
+          <p class="sign">Arden</p>
+        </div>
+      </section>
+
+      <section class="occasions reveal" id="occasions">
+        <div class="section-head">
+          <p class="eyebrow">Occasions</p>
+          <h2>The work they already do, given a proper page.</h2>
+        </div>
+        <div class="occasion-grid">
+          <article>
+            <div class="shot">
+              <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=900&q=75" alt="A restaurant dining room in warm evening light">
+              <a class="more" href="#book">More info</a>
+            </div>
+            <h3>Corporate tables</h3>
+            <p>Lunches and dinners where the food should feel considered, not catered from a tray.</p>
+          </article>
+          <article>
+            <div class="shot">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=75" alt="A wedding table set with flowers and candles">
+              <a class="more" href="#book">More info</a>
+            </div>
+            <h3>Weddings</h3>
+            <p>A menu that belongs to the couple, served so they can stay in the room.</p>
+          </article>
+          <article>
+            <div class="shot">
+              <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=900&q=75" alt="Cocktails and small plates on a dark bar">
+              <a class="more" href="#book">More info</a>
+            </div>
+            <h3>Small parties</h3>
+            <p>Birthdays, house dinners, and the night that needs to feel easy.</p>
+          </article>
+          <article>
+            <div class="shot">
+              <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=900&q=75" alt="Hands preparing food on a wooden kitchen counter">
+              <a class="more" href="#book">More info</a>
+            </div>
+            <h3>At the counter</h3>
+            <p>A class for friends. Knives, a recipe, and something to eat at the end.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="menus reveal" id="menus">
+        <div class="section-head center">
+          <p class="eyebrow">Sample menus</p>
+          <h2>Plates, with room for theirs.</h2>
+          <p class="lede">These dishes are examples, so the page has a voice. Their real menu replaces every line.</p>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Sample menus">
+          <button type="button" role="tab" id="tab-dinner" aria-selected="true" aria-controls="panel-dinner">Dinner</button>
+          <button type="button" role="tab" id="tab-brunch" aria-selected="false" aria-controls="panel-brunch" tabindex="-1">Brunch</button>
+          <button type="button" role="tab" id="tab-garden" aria-selected="false" aria-controls="panel-garden" tabindex="-1">Garden</button>
+        </div>
+        <div class="panel" id="panel-dinner" role="tabpanel" aria-labelledby="tab-dinner">
+          <ul class="dishes">
+            <li><span><strong>Charred prawns</strong> chili butter, lime, grilled bread</span><em>18</em></li>
+            <li><span><strong>Slow lamb</strong> rosemary, roasted garlic, pan juices</span><em>32</em></li>
+            <li><span><strong>Olive oil cake</strong> citrus, soft cream</span><em>12</em></li>
+          </ul>
+        </div>
+        <div class="panel" id="panel-brunch" role="tabpanel" aria-labelledby="tab-brunch" hidden>
+          <ul class="dishes">
+            <li><span><strong>Baked eggs</strong> tomato, herbs, grilled bread</span><em>16</em></li>
+            <li><span><strong>Ricotta pancakes</strong> honey, pear, toasted nuts</span><em>15</em></li>
+            <li><span><strong>Citrus greens</strong> fennel, seeds, olive oil</span><em>14</em></li>
+          </ul>
+        </div>
+        <div class="panel" id="panel-garden" role="tabpanel" aria-labelledby="tab-garden" hidden>
+          <ul class="dishes">
+            <li><span><strong>Roasted cauliflower</strong> tahini, pomegranate, herbs</span><em>16</em></li>
+            <li><span><strong>Tomato broth</strong> basil, grilled bread</span><em>14</em></li>
+            <li><span><strong>Dark chocolate</strong> olive oil, sea salt</span><em>12</em></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="plates reveal" id="plates" aria-label="Plates">
+        <div class="section-head center light-head">
+          <p class="eyebrow light">Plates</p>
+          <h2>The gallery is theirs to fill.</h2>
+        </div>
+        <div class="gallery">
+          <figure class="tall"><img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=1200&q=75" alt="A colorful plated dish on a dark table"></figure>
+          <figure><img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=900&q=75" alt="Eggs and greens on toast"></figure>
+          <figure><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=900&q=75" alt="A scoop of ice cream with chocolate"></figure>
+          <figure><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=75" alt="Roasted meat with herbs"></figure>
+          <figure><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=75" alt="A set table with wine glasses and a finished plate"></figure>
+        </div>
+      </section>
+
+      <section class="voices reveal" aria-label="Sample notes">
+        <div class="section-head center">
+          <p class="eyebrow">The tone</p>
+          <h2>Notes like these, once the real ones exist.</h2>
+        </div>
+        <div class="quote-window">
+          <div class="quote-track">
+            <blockquote>
+              <p>The host sat down. Nobody had to get up and check the oven.</p>
+              <footer>A sample note</footer>
+            </blockquote>
+            <blockquote>
+              <p>The table looked considered, and the food tasted like someone cared who was eating it.</p>
+              <footer>A sample note</footer>
+            </blockquote>
+            <blockquote>
+              <p>The evening stayed easy, which is the whole point of hiring a cook.</p>
+              <footer>A sample note</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="book reveal" id="book">
+        <div class="book-copy">
+          <p class="eyebrow light">Next</p>
+          <h2>Let's make this for you.</h2>
+          <p>Tell me the chef's name and what they cook. The gold script, the menus, and the booking note all change to match.</p>
+        </div>
+        <form class="card" id="pitch">
+          <label>Your name
+            <input name="from" type="text" autocomplete="name" required placeholder="Your name">
+          </label>
+          <label>The chef
+            <input name="chef" type="text" required placeholder="Their name">
+          </label>
+          <label>What they cook
+            <input name="style" type="text" required placeholder="Private dinners, weddings, weekly meals">
+          </label>
+          <label>A note
+            <textarea name="note" rows="4" placeholder="Anything I should know before I build it"></textarea>
+          </label>
+          <button class="btn solid" type="submit">Let's make this for you</button>
+          <p class="form-note" id="thanks" role="status" hidden>Held on this page only. When you say go, this becomes their site, with their name and a way to book.</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div>
+        <p class="script foot-script">Arden</p>
+        <p class="tag">A concept. The name is a stand-in.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#kitchen">The kitchen</a>
+        <a href="#occasions">Occasions</a>
+        <a href="#menus">Menus</a>
+        <a href="#book">Begin</a>
+      </nav>
+      <p class="fine">Let's make this for you.</p>
+    </footer>
+  </div>
+
+  <div class="overlay" id="menu" hidden>
+    <button class="close" type="button">Close</button>
+    <nav aria-label="Sections">
+      <a href="#top">Home</a>
+      <a href="#kitchen">The kitchen</a>
+      <a href="#occasions">Occasions</a>
+      <a href="#menus">Menus</a>
+      <a href="#plates">Plates</a>
+      <a href="#book">Let's make this for you</a>
+    </nav>
+  </div>
+
+  <script src="js/site.js"></script>
+</body>
+</html>
